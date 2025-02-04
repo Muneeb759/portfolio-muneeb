@@ -30,9 +30,9 @@ function About() {
           <div className="pt-4">
             <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">Quick Facts</h2>
             <ul className="list-disc list-inside space-y-2 text-gray-600 dark:text-gray-300">
-              <li>Based in Karachi, Sindh</li>
-              <li>React.js Developer with 1 years of experience</li>
               <li>SAP - Business One Consultant </li>
+              <li>React.js Developer with 1 years of experience</li>
+              <li>Based in Karachi, Sindh</li>
               <li>Problem Solver</li>
             </ul>
           </div>

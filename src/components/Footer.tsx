@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Instagram, Linkedin, Mail } from 'lucide-react';
 
 function Footer() {
   return (
@@ -27,6 +27,12 @@ function Footer() {
             className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
             >
               <Mail size={20} />
+            </a>
+            <a
+            href="https://www.instagram.com/m_muneeb._/"
+            className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+            >
+              <Instagram size={20} />
             </a>
           </div>
           <p className="text-gray-600 dark:text-gray-300 text-sm">

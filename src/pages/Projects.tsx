@@ -1,23 +1,39 @@
-import React from 'react';
 import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Project 1',
-    description: 'A full-stack web application built with React and Node.js',
-    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?fit=crop&w=600&h=400',
-    technologies: ['React', 'Node.js', 'MongoDB', 'TypeScript'],
-    github: 'https://github.com/yourusername/project1',
-    live: 'https://project1.com'
+    title: 'Amazon Clone',
+    description: 'A fully responsive e-commerce web application designed to replicate the core functionalities of Amazon. This project showcases my expertise in front-end, product browsing, a dynamic shopping cart.',
+    image: '../Amazon.com.png',
+    technologies: ['React', 'JavaScript', 'CSS', 'HTML'],
+    github: 'https://github.com/Muneeb759/Amazon-clone',
+    live: 'https://muneeb759.github.io/Amazon-clone/',
+
   },
   {
-    title: 'Project 2',
-    description: 'An e-commerce platform with real-time inventory management',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?fit=crop&w=600&h=400',
-    technologies: ['Next.js', 'Prisma', 'PostgreSQL', 'Tailwind CSS'],
-    github: 'https://github.com/yourusername/project2',
-    live: 'https://project2.com'
+    title: 'Github-Finder',
+    description: 'The most expanded application I had opportunity to work with. I have learned many technologies and my code was reviewed by awesome curator. ',
+    image: 'https://my-react-portfolio-application.surge.sh/images/portfolio/p1.png',
+    technologies: ['React', 'JavaScript', 'CSS', 'HTML'],
+    github: 'https://github.com/Muneeb759/Github-Finder',
+    live: 'https://muneeb759.github.io/Github-Finder/'
   },
+  {
+    title: 'Movie-App',
+    description: 'Welcome to our MovieApp! Powered by React.js, this platform showcases the latest films using real-time data from popular movie APIs. Explore, discover, and enjoy! :)',
+    image: 'https://my-react-portfolio-application.surge.sh/images/portfolio/p5.png',
+    technologies: ['React', 'JavaScript', 'CSS', 'HTML'],
+    github: 'https://github.com/Muneeb759/MovieApp',
+    live: 'https://github.com/Muneeb759/MovieApp'
+  },
+  {
+    title: 'NewsBara',
+    description: 'NewsBara" is a dynamic news react-website that keeps you updated with the latest events and stories from around the world.',
+    image: '../NewsBara.png',
+    technologies: ['React', 'JavaScript', 'CSS', 'HTML'],
+    github: 'https://github.com/Muneeb759/NewsBara',
+    live: 'https://muneeb759.github.io/NewsBara/'
+  }
 ];
 
 function Projects() {
