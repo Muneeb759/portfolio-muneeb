@@ -1,7 +1,9 @@
 import { Link, useLocation } from 'react-router-dom';
+import { useTheme } from '../context/ThemeContext';
+import { Moon, Sun } from 'lucide-react';
 
 function Navbar() {
-  // const { theme, toggleTheme } = useTheme();
+  const { theme, toggleTheme } = useTheme();
   const location = useLocation();
 
   const navLinks = [
@@ -34,12 +36,12 @@ function Navbar() {
               </Link>
             ))}
             
-            {/* <button
+            <button
               onClick={toggleTheme}
               className="p-2 rounded-lg bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200"
             >
               {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
-            </button> */}
+            </button>
           </div>
         </div>
       </div>
