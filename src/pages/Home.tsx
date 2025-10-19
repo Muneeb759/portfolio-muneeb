@@ -12,7 +12,7 @@ function Home() {
         </h1>
         
         <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto lg:mx-0 animate-slide-up delay-200">
-        A Computer Science student, currently working as a SAP - Business One Consultant and have a keen interest in React.js & Data Science.
+        A student, currently working as a SAP - Business One Consultant and have a keen interest in React.js & Data Science.
         </p>
         
         <div className="flex justify-center lg:justify-start space-x-6 mb-8 animate-slide-up delay-200">
